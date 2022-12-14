@@ -1,0 +1,27 @@
+:root{
+    --light: rgb(200,200,200);
+    --lighter: rgb(150,150,150);
+    --light_gray: rgb(100,100,100);
+    --dark: rgb(75,75,75);
+    --darker: rgb(50,50,50);
+    --darkest: rgb(25,25,25);
+
+}
+
+body{
+    background-color: var(--darkest);
+}
+
+input{
+    border-radius: 2rem;
+}
+
+#todo-div{
+    background-color: var(--dark);
+    border-radius: 2rem;
+    border: 1rem, var(--darker), filled;
+    min-width: 50%;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+}
